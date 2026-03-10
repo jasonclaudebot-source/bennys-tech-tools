@@ -2,8 +2,8 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
 import { formatDate } from "@/lib/utils";
 
-export default function Home() {
-  const posts = getAllPosts().slice(0, 3);
+export default async function Home() {
+  const posts = (await getAllPosts()).slice(0, 3);
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">

@@ -5,7 +5,7 @@ import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
-  const posts = getAllPosts();
+  const posts = await getAllPosts();
   return posts.map((post) => ({
     slug: post.slug,
   }));
@@ -37,13 +37,13 @@ export default async function PostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const post = await getPostBySlug(slug);
 
   if (!post) {
     notFound();
   }
 
-  const allPosts = getAllPosts();
+  const allPosts = await getAllPosts();
   const currentIndex = allPosts.findIndex((p) => p.slug === slug);
   const prevPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
   const nextPost = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;

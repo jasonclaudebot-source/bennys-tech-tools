@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   description: "Browse all tech gadget reviews and recommendations",
 };
 
-export default function BlogPage() {
-  const posts = getAllPosts();
+export default async function BlogPage() {
+  const posts = await getAllPosts();
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
