@@ -10,50 +10,46 @@ icon: "💻"
 
 So you want a gaming laptop. Cool. But here's the thing — most gaming laptops are basically portable heaters that happen to play games. I've tested the ones that actually won't turn your leg into a rotisserie chicken.
 
-### The Heavy Hitters
+### Gaming Laptop Ranking (Worst to Best)
 
-#### **ASUS TUF Gaming A16** — The Workhorse
-Look, ASUS has been making tough laptops forever, and the TUF line is their "we don't mess around" series. This thing feels built like a tank and performs like one too.
+**5. HP Pavilion 15** — Budget but feels it
+- Plays games, but thermals are rough
+- Display is okay, nothing special
+- Build quality feels cheap
+- Only pick if you're super tight on budget
 
-**What You Get:**
-- **Intel Core i9** — Yeah, the good one. Handles everything
-- **RTX 4070 or 4080** — Ultra settings on basically anything
-- **16" 165Hz display** — Smooth as butter, super responsive
-- **Actual cooling** — Won't burn your thighs. Revolutionary
-- **16GB DDR5 RAM** — Future-proof-ish
+**4. Dell G15** — The Younger Sibling of G16
+- Works fine, decent performance
+- Gets hot, fan noise is annoying
+- Not as refined as competitors
+- Decent if you find it on sale
 
-**The Real Verdict:** If you want a gaming laptop that'll last and handle anything you throw at it, grab this. It's not cheap, but it's not going to spontaneously combust either.
+**3. Dell G16** — The Budget Play
+- Actually good value for the price
+- Plays games, won't embarrass itself
+- Keyboard could be better
+- Best budget option if you're patient
+
+**2. Lenovo Legion Pro 9** — The Gamer's Gamer Pick
+- Cooling is legitimately impressive
+- Gaming performance is outstanding
+- Build feels premium
+- Nearly as good as the top pick, cheaper sometimes
+
+**🏆 1. ASUS TUF Gaming A16** — The Workhorse (Best Choice)
+ASUS TUF is their "we don't mess around" series. This thing feels built like a tank and performs like one too.
+
+**Why It's The Best:**
+- **Intel Core i9** — Actually good processor
+- **RTX 4070 or 4080** — Ultra settings on everything
+- **16" 165Hz display** — Smooth and responsive
+- **Actual cooling system** — Won't burn your thighs
+- **Premium build** — Lasts years
+- **Keyboard and trackpad are solid** — Actually usable
+
+**Real Verdict:** If you want gaming performance that'll last, this is it.
 
 **[See Current Price on Amazon](https://amazon.com/s?k=ASUS+TUF+Gaming+A16)**
-
-#### **Lenovo Legion Pro 9** — The Gamer's Gamer Pick
-Lenovo's Legion line is actually obsessed with cooling, which is why gamers don't hate them. This isn't just a "gaming" laptop in name — it's actually built for gaming.
-
-**Why It Slaps:**
-- **Vapor chamber cooling** — Sounds fancy, works better
-- **144-165Hz display** — Buttery smooth gaming
-- **Premium audio** — Actually sounds good for once
-- **Keyboard is actually usable** — Wild concept, I know
-- **ThinkPad build quality** — Lenovo's doing something right
-
-**Real Talk:** This feels like it was actually designed by gamers, not just by people trying to sell gaming laptops. If you've got the budget, this is the safer bet.
-
-**[Check Price Here](https://amazon.com/s?k=Lenovo+Legion+Pro+9)**
-
-### The Budget Play
-
-#### **Dell G16** — When You Don't Have $2,000
-Look, not everyone can drop serious cash. The G16 isn't flashy, but it actually works. It'll play new games at high settings without embarrassing itself.
-
-**The Positives:**
-- **Still has RTX graphics** — So you're actually gaming, not just checking email
-- **Good display** — Not amazing, but noticeably better than cheaper alternatives
-- **Doesn't look like a spaceship** — Some people care about that
-- **Reasonable pricing** — Won't require a payment plan
-
-**Bottom Line:** This is the "I want something that works without spending a house down payment" option.
-
-**[Find It on Amazon](https://amazon.com/s?k=Dell+G16+Gaming+Laptop)**
 
 ### Actually Useful Buying Guide
 

@@ -10,46 +10,44 @@ icon: "🎧"
 
 Look, I get it. Dropping $250 on earbuds made by a tech company with a fruit logo sounds insane (because it is). But here's the good news: you can get genuinely solid earbuds for under $100 these days, and I've actually tested them so you don't have to waste your money on garbage.
 
-### The Real Talk Picks
+### The Full Ranking (Worst to Best)
 
-#### 1. **Anker Soundcore Space A40** 🏆
+**5. Soundcore by Anker Space Q35** — Fine, but older tech
+- Good noise cancellation, but the Q45 is better in every way
+- Still under $100 but doesn't feel as premium
+- Battery is decent but not amazing
+
+**4. EarFun Air Pro 3** — Solid budget option
+- Good sound quality for the price
+- Decent ANC, works fine
+- Battery is okay, design is boring
+- Missing some features of better options
+
+**3. JBL Tune 670NC** — The Safe Pick
+- Reliable brand, works as advertised
+- 48-hour battery is genuinely impressive
+- Hybrid ANC is effective
+- Just doesn't feel as premium as competitors
+
+**2. Soundcore by Anker Space Q45** — The Smart Money Play
+- Everything works really well
+- Spatial audio is a nice touch
+- Premium feel for the price
+- Only downside: not as much brand recognition
+
+**🏆 1. Anker Soundcore Space A40** — The Best Choice
 Honestly? These might be my favorite budget earbuds right now. Anker somehow figured out how to put premium features into something you won't have to mortgage your house for.
 
-**The Good Stuff:**
+**Why It Wins:**
 - **Active Noise Cancellation** — Seriously good. Like, quiet enough to ignore your coworker's loud music level of good
 - **10-hour battery** — Yeah, you read that right. 10 hours on a single charge
 - **Bluetooth 5.3** — Connects fast, stays connected, no weird dropouts
 - **Actually comfortable** — Not the earbuds that fall out every two minutes
+- **Best overall value** — Beats everything above it at this price
 
-**Real Talk:** The only downside is they're made by Anker (not exactly a household name), but these guys know audio. These punch way above their price.
+**The Real Talk:** Only downside is brand recognition. But Anker knows audio, and these punch way above their price.
 
-**[Check Current Price on Amazon](https://amazon.com/s?k=Anker+Soundcore+Space+A40)** ← These are usually on sale
-
-#### 2. **JBL Tune 670NC** — For People Who Care About Hype
-Look, JBL is a real brand your grandpa might have heard of. These aren't the fanciest earbuds, but they're solid and they look kinda cool.
-
-**Why Bother:**
-- **Hybrid Noise Cancellation** — Works surprisingly well for blocking out subway noise and annoying people
-- **48-hour total battery** — That's insane. The case charges them like 4 times over
-- **Sound is actually good** — Don't expect Beats sound (because you're not paying Beats prices)
-- **Multiple ear tips** — So you can finally find ones that actually fit your weird ears
-
-**The Honest Take:** These are a safe bet. JBL knows what they're doing, and even at $80-100, they feel like a real product.
-
-**[Find These on Amazon](https://amazon.com/s?k=JBL+Tune+670NC)**
-
-#### 3. **Soundcore by Anker Space Q45** — The Overachiever
-If you've got the full budget and want to actually impress yourself with a smart purchase, go here. Still under $100 (usually), but it feels like you're getting $150+ worth of stuff.
-
-**What Makes It Special:**
-- **Genuinely good ANC** — Blocks out the world better than most $200 earbuds
-- **Spatial audio** — Makes movies and gaming actually feel immersive (it's weird but cool)
-- **Transparency mode** — So you can hear when someone's trying to get your attention
-- **Still just a Soundcore** — Which means it's reliable and not overhyped
-
-**Real Verdict:** This is the "I made a smart purchase" option. You'll actually feel good about spending your money.
-
-**[Check Amazon for Current Price](https://amazon.com/s?k=Soundcore+Space+Q45)**
+**[Check Current Price on Amazon](https://amazon.com/s?k=Anker+Soundcore+Space+A40)** ← Usually on sale
 
 ### What Actually Matters When You're Shopping
 
