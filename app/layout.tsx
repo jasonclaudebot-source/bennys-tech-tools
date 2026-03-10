@@ -26,55 +26,56 @@ export default function RootLayout({
         <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%230066cc'>⚙</text></svg>" />
       </head>
       <body>
+        {/* Minimal Navigation */}
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-          <nav className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-tech-blue hover:text-blue-700 transition">
+          <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex justify-between items-center">
+            <Link href="/" className="text-lg font-bold text-primary hover:text-gray-600 transition">
               BennysTechTools
             </Link>
-            <div className="flex gap-6 items-center">
-              <Link href="/blog" className="text-gray-700 hover:text-tech-blue transition font-medium">
-                Blog
+            <div className="flex gap-8 items-center text-sm">
+              <Link href="/blog" className="text-gray-700 hover:text-primary transition">
+                Reviews
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-tech-blue transition font-medium">
+              <Link href="/about" className="text-gray-700 hover:text-primary transition">
                 About
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-tech-blue transition font-medium">
+              <Link href="/contact" className="text-gray-700 hover:text-primary transition">
                 Contact
               </Link>
             </div>
           </nav>
         </header>
 
-        <main className="min-h-screen">
+        <main className="min-h-screen bg-white">
           {children}
         </main>
 
-        <footer className="bg-tech-dark text-white mt-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
-            <div className="grid md:grid-cols-3 gap-8 mb-8">
+        {/* Minimal Footer */}
+        <footer className="bg-white border-t border-gray-200 mt-24">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+            <div className="grid sm:grid-cols-3 gap-12 mb-12">
               <div>
-                <h3 className="font-bold text-lg mb-4">BennysTechTools</h3>
-                <p className="text-gray-400">Your source for honest tech gadget reviews and recommendations.</p>
+                <h3 className="font-bold text-primary mb-3">BennysTechTools</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">Honest reviews and real opinions about tech.</p>
               </div>
               <div>
-                <h4 className="font-bold mb-4">Quick Links</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li><Link href="/" className="hover:text-white transition">Home</Link></li>
-                  <li><Link href="/blog" className="hover:text-white transition">Blog</Link></li>
-                  <li><Link href="/about" className="hover:text-white transition">About Us</Link></li>
-                  <li><Link href="/contact" className="hover:text-white transition">Contact</Link></li>
+                <h4 className="font-bold text-primary mb-3 text-sm">Pages</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><Link href="/" className="text-gray-600 hover:text-primary transition">Home</Link></li>
+                  <li><Link href="/blog" className="text-gray-600 hover:text-primary transition">Reviews</Link></li>
+                  <li><Link href="/about" className="text-gray-600 hover:text-primary transition">About</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-bold mb-4">Policies</h4>
-                <ul className="space-y-2 text-gray-400">
-                  <li><Link href="/affiliate-disclosure" className="hover:text-white transition">Affiliate Disclosure</Link></li>
-                  <li><Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link></li>
+                <h4 className="font-bold text-primary mb-3 text-sm">Legal</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><Link href="/affiliate-disclosure" className="text-gray-600 hover:text-primary transition">Affiliate Disclosure</Link></li>
+                  <li><Link href="/privacy" className="text-gray-600 hover:text-primary transition">Privacy</Link></li>
                 </ul>
               </div>
             </div>
-            <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-              <p>&copy; 2026 BennysTechTools. All rights reserved. | We may earn affiliate commissions from products we recommend.</p>
+            <div className="border-t border-gray-200 pt-8 text-center text-xs text-gray-500">
+              <p>&copy; 2026 BennysTechTools. Affiliate links may be included.</p>
             </div>
           </div>
         </footer>

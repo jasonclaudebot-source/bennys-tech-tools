@@ -49,60 +49,65 @@ export default async function PostPage({
   const nextPost = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
 
   return (
-    <article className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+    <article className="min-h-screen bg-white">
       {/* Header */}
-      <div className="mb-8">
-        <Link href="/blog" className="text-tech-blue hover:text-blue-700 transition font-semibold mb-4 inline-block">
-          ← Back to Blog
-        </Link>
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">{post.title}</h1>
-        <div className="flex items-center gap-4 text-gray-600">
-          <span>{formatDate(post.date)}</span>
-          <span className="text-xs bg-blue-100 text-tech-blue px-3 py-1 rounded">
-            {post.category || "Tech"}
-          </span>
+      <div className="px-4 sm:px-6 py-12 border-b border-gray-200">
+        <div className="max-w-3xl mx-auto">
+          <Link href="/blog" className="text-gray-600 hover:text-primary transition text-sm mb-6 inline-block">
+            ← Back to Reviews
+          </Link>
+          <h1 className="text-4xl sm:text-5xl font-bold text-primary mb-6 tracking-tight">
+            {post.title}
+          </h1>
+          <div className="flex items-center gap-3 text-gray-500 text-sm">
+            <span>{formatDate(post.date)}</span>
+            <span>•</span>
+            <span>{post.category || "Tech"}</span>
+          </div>
         </div>
       </div>
 
       {/* Content */}
-      <div className="bg-white rounded-lg p-8 mb-8 blog-content">
-        <div dangerouslySetInnerHTML={{ __html: post.content }} />
-      </div>
-
-      {/* Affiliate Disclosure */}
-      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-        <p className="text-sm text-yellow-900">
-          <strong>Affiliate Disclosure:</strong> This post contains affiliate links. We may earn a small commission if you purchase through these links at no extra cost to you.
-        </p>
-      </div>
-
-      {/* Navigation */}
-      {(prevPost || nextPost) && (
-        <div className="grid md:grid-cols-2 gap-6 mt-12 pt-8 border-t">
-          {prevPost ? (
-            <Link
-              href={`/blog/${prevPost.slug}`}
-              className="group p-4 rounded-lg hover:bg-blue-50 transition"
-            >
-              <p className="text-sm text-gray-600 mb-2">← Previous Post</p>
-              <p className="font-semibold text-gray-900 group-hover:text-tech-blue transition">
-                {prevPost.title}
-              </p>
-            </Link>
-          ) : <div />}
-          {nextPost ? (
-            <Link
-              href={`/blog/${nextPost.slug}`}
-              className="group p-4 rounded-lg hover:bg-blue-50 transition text-right md:text-left"
-            >
-              <p className="text-sm text-gray-600 mb-2">Next Post →</p>
-              <p className="font-semibold text-gray-900 group-hover:text-tech-blue transition">
-                {nextPost.title}
-              </p>
-            </Link>
-          ) : <div />}
+      <div className="px-4 sm:px-6 py-12 max-w-3xl mx-auto">
+        <div className="blog-content mb-12 prose-minimal">
+          <div dangerouslySetInnerHTML={{ __html: post.content }} />
         </div>
-      )}
+
+        {/* Affiliate Disclosure */}
+        <div className="bg-gray-50 border border-gray-200 p-6 mb-12">
+          <p className="text-sm text-gray-700">
+            <strong>Disclosure:</strong> Links in this post may be affiliate links. We earn a small commission if you buy through them, at no extra cost to you.
+          </p>
+        </div>
+
+        {/* Navigation */}
+        {(prevPost || nextPost) && (
+          <div className="grid md:grid-cols-2 gap-8 pt-12 border-t border-gray-200">
+            {prevPost ? (
+              <Link
+                href={`/blog/${prevPost.slug}`}
+                className="group p-4 hover:bg-gray-50 transition"
+              >
+                <p className="text-xs text-gray-600 mb-2 uppercase tracking-wide">← Previous</p>
+                <p className="font-semibold text-primary group-hover:text-gray-600 transition">
+                  {prevPost.title}
+                </p>
+              </Link>
+            ) : <div />}
+            {nextPost ? (
+              <Link
+                href={`/blog/${nextPost.slug}`}
+                className="group p-4 hover:bg-gray-50 transition text-right md:text-left"
+              >
+                <p className="text-xs text-gray-600 mb-2 uppercase tracking-wide">Next →</p>
+                <p className="font-semibold text-primary group-hover:text-gray-600 transition">
+                  {nextPost.title}
+                </p>
+              </Link>
+            ) : <div />}
+          </div>
+        )}
+      </div>
     </article>
   );
 }

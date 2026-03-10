@@ -9,9 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'tech-blue': '#0066cc',
-        'tech-dark': '#1a1a1a',
-      }
+        'primary': '#1a1a1a',      // Deep charcoal/black
+        'secondary': '#ffffff',     // Pure white
+        'accent': '#0a0a0a',        // Almost black for contrast
+        'muted': '#f5f5f5',         // Light gray background
+        'border': '#e5e5e5',        // Subtle border gray
+      },
+      fontFamily: {
+        'sans': ['system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+      },
+      spacing: {
+        'section': '6rem',
+      },
     },
   },
   plugins: [],

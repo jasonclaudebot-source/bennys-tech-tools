@@ -12,52 +12,59 @@ export default async function BlogPage() {
   const posts = await getAllPosts();
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
-      <h1 className="text-4xl font-bold text-gray-900 mb-2">Blog</h1>
-      <p className="text-gray-600 mb-12">
-        Honest reviews and recommendations for trending tech gadgets
-      </p>
+    <div className="min-h-screen bg-white">
+      {/* Header */}
+      <div className="px-4 sm:px-6 py-16 border-b border-gray-200">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl sm:text-5xl font-bold text-primary mb-4">Reviews</h1>
+          <p className="text-gray-600 text-lg">
+            Honest takes on the tech you're considering
+          </p>
+        </div>
+      </div>
 
-      {posts.length === 0 ? (
-        <div className="text-center py-12">
-          <p className="text-gray-600">No posts available yet. Check back soon!</p>
-        </div>
-      ) : (
-        <div className="grid gap-6">
-          {posts.map((post) => (
-            <article
-              key={post.slug}
-              className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition border-l-4 border-tech-blue"
-            >
-              <div className="flex items-start justify-between gap-4">
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-3xl">{post.icon || "🔧"}</span>
-                    <div>
-                      <span className="text-sm text-gray-500">{formatDate(post.date)}</span>
-                      <span className="ml-3 text-xs bg-blue-100 text-tech-blue px-2 py-1 rounded">
-                        {post.category || "Tech"}
-                      </span>
+      {/* Posts List */}
+      <div className="px-4 sm:px-6 py-12 max-w-4xl mx-auto">
+        {posts.length === 0 ? (
+          <div className="text-center py-12">
+            <p className="text-gray-600">No posts available yet. Check back soon!</p>
+          </div>
+        ) : (
+          <div className="space-y-12">
+            {posts.map((post) => (
+              <article key={post.slug} className="border-b border-gray-200 pb-12 last:border-b-0">
+                <div className="flex gap-4">
+                  <div className="text-4xl flex-shrink-0">{post.icon || "🔧"}</div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-3 mb-3 text-sm text-gray-500">
+                      <span>{formatDate(post.date)}</span>
+                      <span>•</span>
+                      <span>{post.category || "Tech"}</span>
                     </div>
-                  </div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-2 hover:text-tech-blue transition">
-                    <Link href={`/blog/${post.slug}`}>
-                      {post.title}
+                    <h2 className="text-2xl font-bold text-primary mb-3">
+                      <Link 
+                        href={`/blog/${post.slug}`}
+                        className="hover:text-gray-600 transition"
+                      >
+                        {post.title}
+                      </Link>
+                    </h2>
+                    <p className="text-gray-600 mb-4 leading-relaxed">
+                      {post.description}
+                    </p>
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="text-primary font-medium text-sm hover:text-gray-600 transition"
+                    >
+                      Read Review →
                     </Link>
-                  </h2>
-                  <p className="text-gray-600 mb-4">{post.description}</p>
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    className="inline-block text-tech-blue font-semibold hover:text-blue-700 transition"
-                  >
-                    Read Full Article →
-                  </Link>
+                  </div>
                 </div>
-              </div>
-            </article>
-          ))}
-        </div>
-      )}
+              </article>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
